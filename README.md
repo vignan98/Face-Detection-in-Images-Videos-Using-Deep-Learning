@@ -1,6 +1,6 @@
 # Face-Detection-in-Images-Videos-Using-Deep-Learning
 
-For the past one week I have been working on a project "Face Detection in Images/Videos". I particularly focused on detecting mouth region to track the position of the mouth during speech. Being completely new to this domain, I have explored different techniques following some blogs, Research papers. I focused on Images first and then applied the same on Videos
+I have been working on a project "Face Detection in Images/Videos". I particularly focused on detecting mouth region to track the position of the mouth during speech. Being completely new to this domain, I have explored different techniques following some blogs, Research papers. I focused on Images first and then applied the same on Videos
 
 Few techniques that I have implemented:
 
@@ -23,7 +23,7 @@ Advantage with this approach: This technique is faster compared to other existin
 2. To overcome these problems Multi-task cascade deep learning neural network(MTCNN's) has been developed which uses convolutional neural networks to detect the faces. This model uses three convolutional networks (P-Net, R-Net, O-Net). P-Net uses bounding box regression vectors & NMS (Non-Maximum Suppression) to detect the faces & to select the appropriate bounding boxes from the one’s that overlap. R-Net further eliminates the unimportant bounding boxes with low confidence levels & through applying NMS and finally passes it to O-Net. The output of O-Net are the co-ordinates of bounding box( The Face detection), 5 facial landmarks(I have used three in my code to focus on mouth region). This technique infact reduced false predictions and made some accurate face detections( The image with blue marks)
 
 
-I tried the same with video input & it worked well( couldn’t download the video output). I was able to track the mouth region of the speaker in a video for the whole duration.
+I tried the same with video input & it worked well. I was able to track the mouth region of the speaker in a video for the whole duration.
 
 Image1: Haar Cascade Technique (scaleFactor=1.5, minNeighbors=5) ,2 False Negatives, 0 FP.
 
