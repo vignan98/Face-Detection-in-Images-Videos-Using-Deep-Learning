@@ -30,3 +30,8 @@ Image1: Haar Cascade Technique (scaleFactor=1.5, minNeighbors=5) ,2 False Negati
 Image2: Haar Cascade Technique (scaleFactor=2,minNeighbors=2) , 7 False Positives, 0 FN.
 
 Image3 : Using MTCNN Accurate detection of faces was achieved ( The one in blue marks)
+
+
+
+
+Explored State-of-the-art Algorithms like YOLOv7 to understand the working mechanism of Object Detection Tasks.
